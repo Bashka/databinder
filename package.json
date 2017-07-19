@@ -1,0 +1,13 @@
+{
+  "name": "databinder",
+  "version": "1.0.0",
+  "description": "Simple data binding",
+  "author": "Artur Sh. Mamedbekov",
+  "license": "MIT",
+  "devDependencies": {
+	  "webpack": "*",
+	  "babel-core": "^6.0.0",
+	  "babel-preset-es2015": "*",
+	  "babel-loader": "*"
+  }
+}
