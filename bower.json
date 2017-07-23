@@ -1,0 +1,14 @@
+{
+  "name": "databinder",
+  "description": "Simple data binding",
+  "main": "src/Binder.js",
+  "authors": [
+    "Artur Sh. Mamedbekov"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Bashka/databinder",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ]
+}
