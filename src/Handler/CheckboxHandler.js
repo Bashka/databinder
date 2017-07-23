@@ -6,7 +6,16 @@ class CheckboxHandler extends AbstractHandler{
   }
 
   handle(event){
-    return this.$el.prop('checked')? this.$el.val() : null;
+    if(this.$el.length == 1){
+      return this.$el.prop('checked')? this.$el.val() : null;
+    }
+    else{
+      let val = [];
+      this.$el.filter(':checked').each(function(){
+        val.push($(this).val());
+      });
+      return val;
+    }
   }
 };
 
