@@ -3,6 +3,10 @@ class CompositeBinder{
     this.binders = binders;
   }
 
+  add(binder){
+    this.binders.push(binder);
+  }
+
   bind(){
     this.binders.forEach(binder => binder.bind());
 

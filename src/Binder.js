@@ -17,6 +17,7 @@ module.exports = {
     TextRender: require('./Render/TextRender'),
     SelectRender: require('./Render/SelectRender')
   },
+  BinderFactory: require('./BinderFactory'),
   CompositeBinder: require('./CompositeBinder'),
   CallbackBinder: require('./CallbackBinder'),
   AttributeBinder: require('./AttributeBinder'),
